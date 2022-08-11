@@ -11,7 +11,8 @@ RUN apt install -y gawk wget git-core diffstat unzip texinfo \
     python3-pip python3-pexpect xz-utils debianutils iputils-ping \
     libsdl1.2-dev xterm tar locales net-tools rsync sudo vim curl nano \
     lz4 zstd \
-    iproute2 iptables
+    iproute2 iptables \
+    screen
 
 # Set up locales
 RUN locale-gen en_US.UTF-8 && \
